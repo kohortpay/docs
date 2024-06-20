@@ -88,5 +88,5 @@
     "github": "https://github.com/mintlify",
     "linkedin": "https://www.linkedin.com/company/mintsearch"
   },
-  "openapi": ["/openapi.json"]
+  "openapi": ["https://api.kohortpay.com/static-files/openapi.json"]
 }
