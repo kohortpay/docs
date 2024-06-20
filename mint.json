@@ -75,11 +75,44 @@
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "PaymentIntents",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "api-reference/paymentintents/retrieve-all-payment-intents",
+        "api-reference/paymentintents/create-a-new-payment-intent",
+        "api-reference/paymentintents/retrieve-a-payment-intent-by-id",
+        "api-reference/paymentintents/cancel-a-payment-intent-by-id"
+      ]
+    },
+    {
+      "group": "Payment Groups",
+      "pages": [
+        "api-reference/payment-groups/retrieve-all-payment-groups",
+        "api-reference/payment-groups/create-a-new-payment-group",
+        "api-reference/payment-groups/retrieve-a-payment-group-by-id",
+        "api-reference/payment-groups/update-a-payment-group-by-id",
+        "api-reference/payment-groups/retrieve-participants-of-a-payment-group-by-id",
+        "api-reference/payment-groups/cancel-a-payment-group-by-id",
+        "api-reference/payment-groups/expire-a-payment-group-by-id",
+        "api-reference/payment-groups/validate-a-payment-group-by-id"
+      ]
+    },
+    {
+      "group": "Customers",
+      "pages": [
+        "api-reference/customers/find-all-customers-of-an-organization",
+        "api-reference/customers/create-a-new-customer",
+        "api-reference/customers/find-all-customers-of-an-organization-1",
+        "api-reference/customers/delete-a-customer",
+        "api-reference/customers/update-a-customer"
+      ]
+    },
+    {
+      "group": "CheckoutSessions",
+      "pages": [
+        "api-reference/checkoutsessions/retrieve-all-checkout-sessions-for-the-current-organization-and-livemode",
+        "api-reference/checkoutsessions/create-a-new-checkout-session",
+        "api-reference/checkoutsessions/retrieve-a-checkout-session-by-id-for-the-current-organization-and-livemode",
+        "api-reference/checkoutsessions/expire-a-checkout-session-by-id-for-the-current-organization-and-livemode"
       ]
     }
   ],
