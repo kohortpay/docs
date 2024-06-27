@@ -28,47 +28,47 @@
   "navigation": [
     {
       "group": "API Reference",
-      "pages": ["api-reference/introduction"]
+      "pages": ["introduction"]
     },
     {
       "group": "PaymentIntents",
       "pages": [
-        "api-reference/paymentintents/retrieve-all-payment-intents",
-        "api-reference/paymentintents/create-a-new-payment-intent",
-        "api-reference/paymentintents/retrieve-a-payment-intent-by-id",
-        "api-reference/paymentintents/cancel-a-payment-intent-by-id"
+        "paymentintents/retrieve-all-payment-intents",
+        "paymentintents/create-a-new-payment-intent",
+        "paymentintents/retrieve-a-payment-intent-by-id",
+        "paymentintents/cancel-a-payment-intent-by-id"
       ]
     },
     {
       "group": "Payment Groups",
       "pages": [
-        "api-reference/payment-groups/retrieve-all-payment-groups",
-        "api-reference/payment-groups/create-a-new-payment-group",
-        "api-reference/payment-groups/retrieve-a-payment-group-by-id",
-        "api-reference/payment-groups/update-a-payment-group-by-id",
-        "api-reference/payment-groups/retrieve-participants-of-a-payment-group-by-id",
-        "api-reference/payment-groups/cancel-a-payment-group-by-id",
-        "api-reference/payment-groups/expire-a-payment-group-by-id",
-        "api-reference/payment-groups/validate-a-payment-group-by-id"
+        "payment-groups/retrieve-all-payment-groups",
+        "payment-groups/create-a-new-payment-group",
+        "payment-groups/retrieve-a-payment-group-by-id",
+        "payment-groups/update-a-payment-group-by-id",
+        "payment-groups/retrieve-participants-of-a-payment-group-by-id",
+        "payment-groups/cancel-a-payment-group-by-id",
+        "payment-groups/expire-a-payment-group-by-id",
+        "payment-groups/validate-a-payment-group-by-id"
       ]
     },
     {
       "group": "Customers",
       "pages": [
-        "api-reference/customers/find-all-customers-of-an-organization",
-        "api-reference/customers/create-a-new-customer",
-        "api-reference/customers/find-all-customers-of-an-organization-1",
-        "api-reference/customers/delete-a-customer",
-        "api-reference/customers/update-a-customer"
+        "customers/find-all-customers-of-an-organization",
+        "customers/create-a-new-customer",
+        "customers/find-all-customers-of-an-organization-1",
+        "customers/delete-a-customer",
+        "customers/update-a-customer"
       ]
     },
     {
       "group": "CheckoutSessions",
       "pages": [
-        "api-reference/checkoutsessions/retrieve-all-checkout-sessions-for-the-current-organization-and-livemode",
-        "api-reference/checkoutsessions/create-a-new-checkout-session",
-        "api-reference/checkoutsessions/retrieve-a-checkout-session-by-id-for-the-current-organization-and-livemode",
-        "api-reference/checkoutsessions/expire-a-checkout-session-by-id-for-the-current-organization-and-livemode"
+        "checkoutsessions/retrieve-all-checkout-sessions-for-the-current-organization-and-livemode",
+        "checkoutsessions/create-a-new-checkout-session",
+        "checkoutsessions/retrieve-a-checkout-session-by-id-for-the-current-organization-and-livemode",
+        "checkoutsessions/expire-a-checkout-session-by-id-for-the-current-organization-and-livemode"
       ]
     }
   ],
