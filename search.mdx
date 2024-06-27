@@ -1,0 +1,14 @@
+---
+title: "Search"
+---
+
+All top-level API resources have support for search via "list" API methods.
+It allows you to filter your lists on any property of your object.
+
+The search can be used alongside Pagination query parameters (see above) and the response will follow the same pattern.
+
+## Parameters
+
+| Name   | Type                | Description                                                                                                                                                                                                                                                                                                           |
+| ------ | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| search | _string_ _optional_ | The property and value you want to filter on, separated by `:`. Format is `property:value`. `property` must match an existing property of the object. `value` must exactly match an existing value (case-sensitive). Example: `/customers?search=first_name:Bob` will retrieve all customers with the first name Bob. |

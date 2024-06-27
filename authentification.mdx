@@ -1,0 +1,17 @@
+---
+title: "Authentification"
+description: "How to call our API"
+---
+
+The KohortPay API uses API keys to authenticate requests.
+You can view and manage your API keys in the KohortPay Dashboard.
+
+Test mode secret keys have the prefix sk*test* and live mode secret keys have the prefix sk*live*.
+Your API keys carry many privileges, so be sure to keep them secure! Do not share your secret API keys in publicly accessible areas such as GitHub, client-side code, and so forth.
+
+Authentication to the API is performed via HTTP Basic Auth.
+Provide your API key as the basic auth username value. You do not need to provide a password.
+You can also provide your key as a Bearer token.
+
+All API requests must be made over HTTPS. Calls made over plain HTTP will fail.
+API requests without authentication will also fail.

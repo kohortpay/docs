@@ -28,7 +28,14 @@
   "navigation": [
     {
       "group": "API Reference",
-      "pages": ["introduction"]
+      "pages": [
+        "introduction",
+        "authentification",
+        "errors",
+        "expand-object",
+        "pagination",
+        "search"
+      ]
     },
     {
       "group": "PaymentIntents",
