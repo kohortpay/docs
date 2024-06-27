@@ -25,24 +25,9 @@
     "name": "Dashboard",
     "url": "https://dashboard.kohortpay.com"
   },
-  "primaryTab": {
-    "name": "API Reference"
-  },
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://docs.kohortpay.com"
-    },
-    {
-      "name": "Website",
-      "icon": "newspaper",
-      "url": "https://www.kohortpay.com/blg"
-    }
-  ],
   "navigation": [
     {
-      "group": "API Documentation",
+      "group": "API Reference",
       "pages": ["api-reference/introduction"]
     },
     {
