@@ -25,6 +25,9 @@
     "name": "Dashboard",
     "url": "https://dashboard.kohortpay.com"
   },
+  "primaryTab": {
+    "name": "API Reference"
+  },
   "anchors": [
     {
       "name": "Documentation",
