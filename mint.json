@@ -1,29 +1,29 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "API Docs",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
-  "favicon": "/favicon.ico",
+  "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#ED395E",
+    "light": "#ED395E",
+    "dark": "#ED395E",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#ED395E",
+      "to": "#ED395E"
     }
   },
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:support@kohortpay.com"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "url": "https://dashboard.kohortpay.com"
   },
   "tabs": [
     {
@@ -111,9 +111,9 @@
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "x": "https://x.com/kohortpay",
+    "github": "https://github.com/kohortpay",
+    "linkedin": "https://www.linkedin.com/company/kohortpay"
   },
   "openapi": ["https://api.kohortpay.com/static-files/openapi.json"]
 }
