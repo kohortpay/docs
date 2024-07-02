@@ -40,10 +40,10 @@
     {
       "group": "PaymentIntents",
       "pages": [
-        "paymentintents/retrieve-all-payment-intents",
-        "paymentintents/create-a-new-payment-intent",
-        "paymentintents/retrieve-a-payment-intent-by-id",
-        "paymentintents/cancel-a-payment-intent-by-id"
+        "payment-intents/retrieve-all-payment-intents",
+        "payment-intents/create-a-new-payment-intent",
+        "payment-intents/retrieve-a-payment-intent-by-id",
+        "payment-intents/cancel-a-payment-intent-by-id"
       ]
     },
     {
@@ -64,18 +64,20 @@
       "pages": [
         "customers/find-all-customers-of-an-organization",
         "customers/create-a-new-customer",
-        "customers/find-all-customers-of-an-organization-1",
+        "customers/find-one-customer-of-an-organization",
         "customers/delete-a-customer",
-        "customers/update-a-customer"
+        "customers/update-a-customer",
+        "customers/block-a-customer",
+        "customers/unblock-a-customer"
       ]
     },
     {
       "group": "CheckoutSessions",
       "pages": [
-        "checkoutsessions/retrieve-all-checkout-sessions-for-the-current-organization-and-livemode",
-        "checkoutsessions/create-a-new-checkout-session",
-        "checkoutsessions/retrieve-a-checkout-session-by-id-for-the-current-organization-and-livemode",
-        "checkoutsessions/expire-a-checkout-session-by-id-for-the-current-organization-and-livemode"
+        "checkout-sessions/retrieve-all-checkout-sessions-for-the-current-organization-and-livemode",
+        "checkout-sessions/create-a-new-checkout-session",
+        "checkout-sessions/retrieve-a-checkout-session-by-id-for-the-current-organization-and-livemode",
+        "checkout-sessions/expire-a-checkout-session"
       ]
     }
   ],
@@ -84,5 +86,5 @@
     "github": "https://github.com/kohortpay",
     "linkedin": "https://www.linkedin.com/company/kohortpay"
   },
-  "openapi": ["https://api.kohortpay.com/static-files/openapi.json"]
+  "openapi": "https://api.kohortpay.dev/static-files/openapi.json"
 }
