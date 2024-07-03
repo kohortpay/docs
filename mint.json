@@ -38,7 +38,7 @@
       ]
     },
     {
-      "group": "PaymentIntents",
+      "group": "Payments",
       "pages": [
         "payment-intents/retrieve-all-payment-intents",
         "payment-intents/create-a-new-payment-intent",
@@ -72,7 +72,7 @@
       ]
     },
     {
-      "group": "CheckoutSessions",
+      "group": "Checkout sessions",
       "pages": [
         "checkout-sessions/retrieve-all-checkout-sessions-for-the-current-organization-and-livemode",
         "checkout-sessions/create-a-new-checkout-session",
