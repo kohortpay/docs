@@ -31,46 +31,36 @@
       "pages": ["introduction", "authentification", "errors", "request"]
     },
     {
-      "group": "Payments",
-      "pages": [
-        "payment-intents/retrieve-all-payment-intents",
-        "payment-intents/create-a-new-payment-intent",
-        "payment-intents/retrieve-a-payment-intent-by-id",
-        "payment-intents/cancel-a-payment-intent-by-id"
-      ]
-    },
-    {
-      "group": "Payment Groups",
-      "pages": [
-        "payment-groups/retrieve-all-payment-groups",
-        "payment-groups/create-a-new-payment-group",
-        "payment-groups/retrieve-a-payment-group-by-id",
-        "payment-groups/update-a-payment-group-by-id",
-        "payment-groups/retrieve-participants-of-a-payment-group-by-id",
-        "payment-groups/cancel-a-payment-group-by-id",
-        "payment-groups/expire-a-payment-group-by-id",
-        "payment-groups/validate-a-payment-group-by-id"
-      ]
-    },
-    {
       "group": "Customers",
       "pages": [
-        "customers/find-all-customers-of-an-organization",
-        "customers/create-a-new-customer",
-        "customers/find-one-customer-of-an-organization",
-        "customers/delete-a-customer",
-        "customers/update-a-customer",
-        "customers/block-a-customer",
-        "customers/unblock-a-customer"
+        "customers/list-customers",
+        "customers/create-customer",
+        "customers/get-customer",
+        "customers/update-customer",
+        "customers/delete-customer",
+        "customers/block-customer",
+        "customers/unblock-customer"
       ]
     },
     {
-      "group": "Checkout sessions",
+      "group": "Orders",
       "pages": [
-        "checkout-sessions/retrieve-all-checkout-sessions-for-the-current-organization-and-livemode",
-        "checkout-sessions/create-a-new-checkout-session",
-        "checkout-sessions/retrieve-a-checkout-session-by-id-for-the-current-organization-and-livemode",
-        "checkout-sessions/expire-a-checkout-session"
+        "orders/list-orders",
+        "orders/create-an-order",
+        "orders/get-an-order"
+      ]
+    },
+    {
+      "group": "Referral Groups",
+      "pages": [
+        "groups/list-groups",
+        "groups/create-a-group",
+        "groups/get-a-group",
+        "groups/update-a-group",
+        "groups/cancel-a-group",
+        "groups/expire-a-group",
+        "groups/validate-a-group",
+        "groups/list-all-orders-in-a-group"
       ]
     }
   ],
